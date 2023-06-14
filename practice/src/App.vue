@@ -192,7 +192,7 @@ props
   - 작명="문자자료" / :작명="숫자자료"
 사용할 때
 props:{
-   이름 : 타입(Array, Number...)
+   이름 : 타입(Array, Number...) 
 }
 
 -->

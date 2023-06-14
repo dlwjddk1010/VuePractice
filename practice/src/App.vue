@@ -86,7 +86,8 @@ export default {
       reportCnts: [0, 3, 0],
       modalOpen: false,
       onRooms: data,
-      click:0,
+      click: 0,
+      object:{name:"dd", age:20}
     }
   },
   methods: { // 함수 만드는 공간
@@ -187,7 +188,11 @@ props
 1. 데이터를 정송
 2. 등록
 3. 사용
+보낼 때 : <사용할vue :보낼데이터이름="보낼데이터" />
+  - 작명="문자자료" / :작명="숫자자료"
+사용할 때
 props:{
    이름 : 타입(Array, Number...)
 }
+
 -->
